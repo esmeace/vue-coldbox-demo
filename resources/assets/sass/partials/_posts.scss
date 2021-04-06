@@ -1,0 +1,56 @@
+.posts-stacked {
+    .card {
+        border: 0px;
+    }
+    .card-body {
+        background-color: #fff;
+        margin-left: -50px;
+        margin-top: 20px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0,.15);
+        transition: transform .2s; /* Animation */
+
+        &:hover {
+            background-color: rgb(242, 255, 255);
+            transform: scale(1.1);
+        }
+    }
+   
+} 
+.post-hero {
+    color: #fff;
+    height: 350px;
+    margin-bottom: 24px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+
+    h1 {
+        color: #fff;
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 3rem;
+        text-shadow: 2px 2px 2px rgba( 0, 0, 0,.75 );
+    }
+}
+.post-hero__image {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+.post-hero__text {
+    box-sizing: border-box;
+    padding: 15px;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+@media only screen and (min-width: 56.25em ){
+    .post-hero {
+        height: 500px;
+    }
+    .post-hero__text {
+        top: 200px;
+    }
+}

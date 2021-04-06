@@ -1,0 +1,29 @@
+html, body{ min-height: 100%; }
+
+.app-wrapper {
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.flex-column {
+	position: relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+}
+.page-header {
+   background-color: teal;
+   color: #fff;
+   padding: 100px 15px 15px 15px;
+   text-align: center;
+}
+.page-content {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 1.3em;
+}
