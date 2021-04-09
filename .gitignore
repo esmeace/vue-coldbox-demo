@@ -22,4 +22,6 @@ modules/**/apidocs/**
 # Webpack-generated Files
 includes/*
 !includes/content
+!includes/helpers
+!includes/i18n
 modules_app/**/includes/js
